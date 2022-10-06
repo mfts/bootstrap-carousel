@@ -186,6 +186,33 @@
   opacity: 1;
 }
 
+.carousel-indicators {
+  button {
+    text-indent: 0;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    line-height: 30px;
+    color: #fff;
+    background-color: #999;
+    transition: all 0.25s ease;
+  }
+  button.active {
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #337ab7;        
+  }
+  button:hover {
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #337ab7;        
+  }
+}
+
 .carousel-caption {
   position: absolute;
   right: 15%;
